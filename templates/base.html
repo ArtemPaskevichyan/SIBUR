@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>SIBUR ecomap</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet">
+	<link rel="stylesheet" href="/static/style.css" type="text/css">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
+
+	<script src="/static/script.js"></script>
+</head>
+<body>
+    <div class="header">
+	 	<div class="headerInfo">
+	 		<div class="headerTitle">SIBUR</div>
+	 		<div class="headerLogo">
+	 			<img src="static/imgs/icon.png" height="30" width="30">
+	 		</div>
+	 	</div>
+	 	<div class="headerButtons">
+	 		<a class="headerButton" href="https://google.com">Устройства</a>
+	 		<a class="headerButton" href="https://google.com">Данные</a>
+	 	</div>
+	 	<div class="headerBlock"></div>
+    </div>
+    <div class="headerUnderline"></div>
+
+    {% block content %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "id": "10",
+  "data": {
+    "groundPH": "70",
+    "waterPPM": "10",
+    "waterOpacity": "10",
+    "waterSalt": "10",
+    "waterPH": "70",
+    "airPM25": "10",
+    "airPPM": "10"
+  }
+}
